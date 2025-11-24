@@ -21,7 +21,7 @@ function App() {
       console.log("FRONTEND metric sending:", metric);
 
       const res = await axios.post(
-        "http://localhost:8000/api/analyze/",
+        "https://real-estate-analysis-chatbot-1.onrender.com/api/analyze/",
         {
           query: text,
           metric: metric, 
